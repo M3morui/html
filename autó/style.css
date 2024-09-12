@@ -20,6 +20,19 @@ h1, h2, h3{
 
 .kepek{
     text-align: center;
+    background-color: rgb(168, 252, 224);
+    color: rgb(6, 0, 63);
+    border: 3px solid rgb(168, 252, 224);
+    border-radius: 40px;
+    box-shadow: 0 8px 8px 0 rgba(212, 250, 75, 0.395);
+}
+
+.kepek:hover{
+    box-shadow: 0 10px 16px 0 rgba(255, 61, 61, 0.488);
+}
+
+figcaption{
+    font-weight: bold;
 }
 
 .logo{
@@ -40,4 +53,44 @@ address{
 footer{
     text-align: center;
     font-weight: bold;
+    background-color: black;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+nav{
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a{
+    float: left;
+    text-decoration: none;
+    background-color: rgb(168, 252, 224);
+    padding: 5px;
+    color: rgb(6, 0, 63);
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(168, 252, 224);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.cimpopular{
+    margin: 100px;
+}
+
+.about{
+    text-align: center;
+    margin: 0 300px 0 300px;
 }

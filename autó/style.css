@@ -94,3 +94,11 @@ li{
     text-align: center;
     margin: 0 300px 0 300px;
 }
+
+.reklam{
+    text-align: center;
+}
+iframe{
+    border-radius: 20px;
+}
+

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+*{
+    font-family: "Matemasie", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+    background-color: #12012a;
+    color: beige;
+}
+
+h1{
+    color: #c20000;
+    text-align: center;
+}
+
+nav{
+    background-color: #a50000;
+    padding: 1px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul.navlist{
+    text-decoration: none;
+}
+
+li.navlist{
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: #ffca39;
+    color: #a50000;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: beige;
+    margin: 10px;
+}
+
+.karakterek{
+    text-align: center;
+}
+
+.mainkep{
+    width: 50%;
+    height: auto;
+    border: 5px solid #740505;
+    box-shadow: 0 4px 4px 4px rgba(255, 255, 0, 0.268);
+}
+
+figure:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+figure{
+    margin: 50px 20px 50px 20px;
+}
+
+.kep {
+    width: 230px;
+}
+
+.kepek {
+    text-align: center;
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainspan{
+    color: #d9c700;
+}
+
+.tablazat{
+    display: flex;
+    justify-content: center;
+}
+
+td.bevetel,
+th.bevetel{
+    border: 1px solid #a50000;
+    padding: 5px;
+}
+td.bevetel:nth-child(2),
+td.bevetel:nth-child(3){
+    text-align: center;
+}
+
+ul.kepregenyek{
+    list-style-type: circle;
+}
+
+.hivatkozas{
+    text-decoration: none;
+    color: #c20000;
+}
+
+footer{
+    background-color: #a50000;
+    text-align: center;
+    padding: 5px;
+}

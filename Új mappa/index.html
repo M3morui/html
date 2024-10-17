@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Azure IoT Edge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div id="tartalom">
+            <h1>Az <span>Azure</span> IoT Edge</h1>
+    
+            <p id="bekezdes">Az Azure IoT Edge szolgáltatás a felhőbeli elemzéseket és egyéni üzleti logikákat eszközökre helyezi át, hogy a szervezet az üzleti elemzésekre tudjon koncentrálni az adatkezelés helyett. Az üzleti logikát szabványos tárolóba csomagolva kibővítheti IoT-megoldását, majd bármely eszközön üzembe helyezheti ezeket a tárolókat, és figyelheti az összes felhőből.</p>
+            
+    
+            <p id="bekezdes">Az elemzések jelentős üzleti értékeket teremthetnek az IoT-megoldásokban, de nem szükséges minden elemzést a felhőben végezni. Ha a lehető leggyorsabban szeretne reagálni a vészhelyzetekre, a biztonsági rendellenesség észlelése számítási feladatokat a peremhálózat szélén is futtathatja. Ha csökkenteni kívánja a sávszélességi költségeket, és nem kívánja átvinni az terabájtos nyers adatokat, akkor az adatokat helyileg törölheti és összesítheti, majd csak elemzés céljából elküldheti a felhőbe a bepillantást.</p>
+            
+    
+            <h2>IoT Edge-futtatókörnyezet</h2>
+    
+            <p id="bekezdes">Az <span>Azure</span> IoT Edge-futtatókörnyezet egyéni és felhőbeli logikák is használatát is lehetővé teszi az IoT Edge-eszközökön. A futtatókörnyezet a IoT Edge eszközön helyezkedik el, és felügyeleti és kommunikációs műveleteket hajt végre. A futtatókörnyezet számos funkciót lát el:</p>
+            
+    
+            <ul>
+                <li>A számítási feladatok telepítése és frissítése az eszközön.</li>
+                <li>Fenntartja <span>Azure</span> IoT Edge biztonsági szabványait az eszközön.</li>
+                <li>Biztosítja az IoT Edge-modulok folyamatos futását.</li>
+                <li>Jelenti a modulok állapotát a felhőnek a távoli monitorozáshoz.</li>
+                <li>Felügyeli az alárendelt levelek eszközei és egy IoT Edge eszköz közötti kommunikációt egy IoT Edge eszközön lévő modulok, valamint egy IoT Edge eszköz és a felhő között.</li>
+            </ul>
+            <div id="keret">
+                <img src="runtime.png" alt="IoT Edge-futtatókörnyezet" title="IoT Edge-futtatókörnyezet" class="img-fluid">
+                <p class="kepalairas">Az IoT Edge-futtatókörnyezet</p>
+            </div>
+        
+    
+            <h2>Verzióelőzmények</h2>
+    
+            <p id="bekezdes">Ez a táblázat a IoT Edge csomagok kiadásának legújabb verzióit tartalmazza, és kiemeli az egyes verziókra vonatkozó dokumentációs frissítéseket.</p>
+            
+    
+            <table style="text-align: center; color: white;">
+                <tr style="background-color: mediumturquoise">
+                    <th>Kibocsátási megjegyzések és eszközök</th>
+                    <th>Típus</th>
+                    <th>Dátum</th>
+                    <th>Legfontosabb tudnivalók</th>
+                </tr>
+                <tr style="background-color: rgba(0, 126, 124, 0.415);">
+                    <td>1,2 – RC1</td>
+                    <td>Előnézet</td>
+                    <td>2020. november</td>
+                    <td>Az átjárók mögött IoT Edge eszközök
+                        IoT Edge MQTT-közvetítő</td>
+                </tr>
+                <tr style="background-color: rgba(0, 126, 124, 0.415);">
+                    <td>1.0.10</td>
+                    <td>Stable</td>
+                    <td>2020. október</td>
+                    <td>UploadSupportBundle Direct metódus
+                        Futásidejű mérőszámok feltöltése
+                        Útvonal prioritása és élettartama
+                        Modul indítási sorrendje
+                        X. 509 manuális kiépítés</td>
+                </tr>
+                <tr style="background-color: rgba(0, 126, 124, 0.415);">
+                    <td>1.0.9</td>
+                    <td>Stable</td>
+                    <td>2020. március</td>
+                    <td>X. 509 automatikus kiépítés a DPS-vel
+                        RestartModule Direct metódus
+                        támogatás – Bundle parancs</td>
+                </tr>
+                
+            </table>
+            
+    
+            <a href="https://docs.microsoft.com/hu-hu/azure/iot-edge" target="_blank">Forrás</a>
+    
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+span{
+    color: aqua;
+}
+*{
+    color: white;
+}
+body{
+    font-family: 'Geneva', 'sans-serif';
+    background-image: url(hatter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px 1600px;
+}
+
+#tartalom{
+    width: 900px;
+    margin-top: 20px;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+#keret{
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(58, 189, 201);
+}
+
+
+.kepalairas{
+    text-align: center;
+}
+
+a:hover{
+    color: yellow;
+}
+
+#bekezdes{
+    text-align: justify;
+}
+
+#bekedzes{
+    text-indent: 20px;
+}

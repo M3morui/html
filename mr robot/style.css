@@ -1,0 +1,56 @@
+.card_kepek{
+    height: 300px;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.szoveg{
+    color: black;
+}
+
+.kep_epizod{
+    text-align: center;
+}
+
+.epizod_kep{
+    width: 240px;
+    height: 320px;
+}
+
+.epizodok{
+    background-color: rgba(0, 255, 255, 0.393);
+    margin: 20px 0 20px 0;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.szereplok{
+    width: 200px;
+}
+
+.hivatkozas{
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgba(0, 242, 255, 0.556);
+    text-align: center;
+    padding: 5px;
+}

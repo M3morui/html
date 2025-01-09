@@ -1,0 +1,83 @@
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.nev{
+    font-size: 24px;
+}
+
+p{
+    text-align: justify;
+}
+
+.elso{
+    margin-top: 20px;
+}
+
+body{
+    background-image: url(/kepek/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.alkoto{
+    width: 450px;
+    justify-content: center;
+    border: 4px solid rgb(57, 207, 207);
+    margin-left: 90px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#eredet{
+    background-color: rgba(57, 207, 207, 0.6);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#bitcoin{
+    background-color: rgba(206, 238, 23, 0.6);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#szoftverek{
+    background-color: rgba(57, 207, 207, 0.6);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.hivatkozas{
+    color: yellow;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.szoftver{
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+li{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

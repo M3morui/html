@@ -1,0 +1,46 @@
+.elso{
+    width: 310px;
+    height:  400px;
+    margin: auto;
+}
+
+.masodik{
+    width: 350px;
+    height: 400px;
+    width: 100%;
+}
+
+.gyoztes{
+    background-color: #ffff99;
+}
+
+p{
+    text-align: justify;
+}
+
+.wba{
+    width: 300px;
+}
+
+.link{
+    text-decoration: none;
+    color: #6b4226;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}

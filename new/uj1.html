@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.image-wrapper {
+    position: relative;
+    width: 780px;
+    margin: auto;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-wrapper:hover .info {
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<div class="image-wrapper">
+<img src="jhin.jpg" alt="Description" width="800">
+<div class="info">Additional Info</div>
+</div>
+</body>
+</html>

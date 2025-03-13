@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+*{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+body{
+    background-image: url(viktor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+caption{
+    caption-side: top;
+    text-align: center;
+}
+
+table{
+    background-color: rgba(0, 106, 255, 0.293);
+}
+
+th, td{
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 10px;
+    color: rgb(216, 216, 216);
+}
+
+.link{
+    text-decoration: none;
+    color: aqua;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.p{
+    margin-top: 8px;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: #e7e7f1;
+}
+
+header{
+    background-color: #4267b2;
+}
+
+.fejszoveg{
+    color: white;
+    margin-left: 10px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.kek{
+    color: #113377;
+    margin-top: 40px;
+}
+
+.border-dark{
+    background-color: #4d71b9 !important;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 36px;
+    border-style: solid #113377 !important;
+}
+
+.fejszoveg1{
+    color: white;
+    margin-bottom: -0px;
+}
+
+.kereses{
+    margin-left: 10px;
+}
+
+.link1{
+    color: #94a9d1;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.link1:hover{
+    color: aliceblue;
+}
+
+.link2{
+    color: #4267b2;
+    text-decoration: none;
+    font-size: small;
+}
+
+.link2:hover{
+    color: #113377;
+}
+
+.hosszlink{
+    color: #4267b2;
+    text-decoration: none;
+    font-size: small;
+}
+
+.hosszlink:hover{
+    color: #113377;
+}
+
+.hossz{
+    font-size: small;
+}

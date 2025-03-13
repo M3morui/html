@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+.soroskep{
+    border-radius: 7%;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.623);
+}
+
+h2{
+    text-align: right;
+}
+
+.elsop::first-letter{
+    padding-left: 5%;
+}
+
+.linkek::first-letter{
+    padding-left: 5%;
+}
+
+.freemail{
+    background-color: rgba(189, 189, 189, 0.892);
+    padding: 5px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.sulinet{
+    background-color: rgba(189, 189, 189, 0.892);
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.phare{
+    background-color: rgba(189, 189, 189, 0.892);
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: darkblue;
+}
